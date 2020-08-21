@@ -183,13 +183,13 @@ $(function() {
                             }
 
                             // Handle adding the player.
-                            if (e.hasPlayer) {
+                            if (e.hasPlayer && location.protocol.toLowerCase().startsWith('https') && !(location.port > 0 && location.port !== 443)) {
                                 // Add the player.
                                 $('#twitch-player-iframe').html($('<iframe/>', {
                                     'frameborder': '0',
                                     'scrolling': 'no',
                                     'style': 'width: 100%; height: 450px; margin-bottom: -5px;',
-                                    'src': 'https://player.twitch.tv/?channel=' + getChannelName() + '&muted=true&autoplay=false'
+                                    'src': 'https://player.twitch.tv/?channel=' + getChannelName() + '&muted=true&autoplay=false' + '&parent=' + location.hostname
                                 }));
                             } else if (e.hasPlayer) {
                                 $('#twitch-player-iframe').html('Aufgrund von Änderungen durch Twitch kann das Live-Feed-Panel nicht mehr angezeigt werden, es sei denn, du aktivierst SSL im PhantomBotDE-Panel und änderst den Baseport auf 443. Dies funktioniert möglicherweise nicht ohne Root-Privilegien.<br /><br />Alternativ können Sie sich mit der GitHub-Version des Panels bei <a href="https://phantombot.github.io/PhantomBot/">PhantomBot - GitHub.io</a> anmelden, die dieses Problem umgeht.<br /><br />Hilfe beim Einrichten von SSL findest du in <a href="https://phantombot.github.io/PhantomBot/guides/#guide=content/twitchembeds">diesem Handbuch</a>.');
