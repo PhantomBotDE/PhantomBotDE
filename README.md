@@ -62,7 +62,7 @@ Detaillierte Upgrade-Anweisungen finden Sie in unserer [Dokumentation](https://p
 PhantomBotDE ist lizensiert unter der [**GNU General Public License v3 (GPL-3)**](https://www.gnu.org/copyleft/gpl.html).
 
 ## Screenshots
-![(https://i.imgur.com/FZZPADf.png)"PhantomBotDE Konsole"](https://i.imgur.com/FZZPADf.png "Die Konsole")
-![(https://i.imgur.com/eTHkJCX.png)"PhantomBotDE Bedienpanel"](https://i.imgur.com/eTHkJCX.png "Das Bedienpanel")
-![(https://i.imgur.com/mDygRrZ.png)"PhantomBotDE YouTube Player"](https://i.imgur.com/mDygRrZ.png "Der YouTube Player")
-![(https://i.imgur.com/tRCyFJA.png)"Die Öffentlich einsehbare Playlist & Songrequest Warteschlange"](https://i.imgur.com/tRCyFJA.png "PhantomBotDE Öffentlich einsehbare Playlist & Songrequest Warteschlange")
+![(/.github/images/pbde_cmd.png)"PhantomBotDE Konsole"](/.github/images/pbde_cmd.png "PhantomBotDE Konsole")
+![(/.github/images/pbde_board.png)"PhantomBotDE Bedienpanel"](/.github/images/pbde_board.png "PhantomBotDE Bedienpanel")
+![(/.github/images/pbde_yt.png)"PhantomBotDE YouTube Player"](/.github/images/pbde_yt.png "PhantomBotDE YouTube Player")
+![(/.github/images/pbde_yt_pl.png)"PhantomBotDE YouTube Player Playlist Viewer"](/.github/images/pbde_yt_pl.png "PhantomBotDE YouTube Player Playlist Viewer")
