@@ -374,10 +374,10 @@ $(function() {
                 })
             	// Add the toggle for online alerts.
             	.append(helpers.getDropdownGroup('online-toggle', 'Online-Alarme aktivieren', (e.onlineToggle === 'true' ? 'Ja' : 'Nein'), ['Ja', 'Nein'],
-                	'If a message should be said in the channel when you go live on Twitch.'))
+                	'Wenn eine Nachricht in den Kanal gesendet werden soll, wenn Sie live auf Twitch gehen.'))
             	// Add the toggle for auto bot streaming status
             	.append(helpers.getDropdownGroup('online-status', 'Bot-Status aktivieren', (e.botGameToggle === 'true' ? 'Ja' : 'Nein'), ['Ja', 'Nein'],
-                	'Wenn Sie live gehen, zeigen Sie Ihren Bot als Streaming.'))
+                	'Wenn Sie live gehen, zeigt dein Bot sich als streament an.'))
             	// Add the text area for the online message.
             	.append(helpers.getTextAreaGroup('online-message', 'text', 'Online Nachricht', '', e.onlineMessage,
                 	'Die Nachricht wird gesendet, wenn Sie live gehen. Diese Nachricht ist in einem Embed-Stil. Tags: (name)', false))))
