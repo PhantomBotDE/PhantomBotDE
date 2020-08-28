@@ -49,11 +49,11 @@ jobs:
       run: ant -noinput -Dbuildtype=$BUILDTYPE -buildfile build.xml dist
     - name: Prep Artifacts
       env:
-        FOLDERFULL: ${{ format('PhantomBot-{0}', steps.build_env.outputs.branch) }}
-        FOLDERLIN: ${{ format('PhantomBot-{0}-lin', steps.build_env.outputs.branch) }}
-        FOLDERWIN: ${{ format('PhantomBot-{0}-win', steps.build_env.outputs.branch) }}
-        FOLDERMAC: ${{ format('PhantomBot-{0}-mac', steps.build_env.outputs.branch) }}
-        FOLDERARM: ${{ format('PhantomBot-{0}-arm', steps.build_env.outputs.branch) }}
+        FOLDERFULL: ${{ format('PhantomBotDE-{0}', steps.build_env.outputs.branch) }}
+        FOLDERLIN: ${{ format('PhantomBotDE-{0}-lin', steps.build_env.outputs.branch) }}
+        FOLDERWIN: ${{ format('PhantomBotDE-{0}-win', steps.build_env.outputs.branch) }}
+        FOLDERMAC: ${{ format('PhantomBotDE-{0}-mac', steps.build_env.outputs.branch) }}
+        FOLDERARM: ${{ format('PhantomBotDE-{0}-arm', steps.build_env.outputs.branch) }}
       run: |
         mkdir dist/$FOLDERLIN
         rsync -rav --progress dist/$FOLDERFULL dist/$FOLDERLIN --exclude java-runtime --exclude java-runtime-macos --exclude launch.bat
@@ -66,25 +66,25 @@ jobs:
     - name: Upload Artifact (Full)
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ format('PhantomBot-{0}', steps.build_env.outputs.branch) }}
-        path: ${{ format('dist/PhantomBot-{0}', steps.build_env.outputs.branch) }}
+        name: ${{ format('PhantomBotDE-{0}', steps.build_env.outputs.branch) }}
+        path: ${{ format('dist/PhantomBotDE-{0}', steps.build_env.outputs.branch) }}
     - name: Upload Artifact (Linux)
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ format('PhantomBot-{0}-lin', steps.build_env.outputs.branch) }}
-        path: ${{ format('dist/PhantomBot-{0}-lin', steps.build_env.outputs.branch) }}
+        name: ${{ format('PhantomBotDE-{0}-lin', steps.build_env.outputs.branch) }}
+        path: ${{ format('dist/PhantomBotDE-{0}-lin', steps.build_env.outputs.branch) }}
     - name: Upload Artifact (Windows)
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ format('PhantomBot-{0}-win', steps.build_env.outputs.branch) }}
-        path: ${{ format('dist/PhantomBot-{0}-win', steps.build_env.outputs.branch) }}
+        name: ${{ format('PhantomBotDE-{0}-win', steps.build_env.outputs.branch) }}
+        path: ${{ format('dist/PhantomBotDE-{0}-win', steps.build_env.outputs.branch) }}
     - name: Upload Artifact (macOS)
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ format('PhantomBot-{0}-mac', steps.build_env.outputs.branch) }}
-        path: ${{ format('dist/PhantomBot-{0}-mac', steps.build_env.outputs.branch) }}
+        name: ${{ format('PhantomBotDE-{0}-mac', steps.build_env.outputs.branch) }}
+        path: ${{ format('dist/PhantomBotDE-{0}-mac', steps.build_env.outputs.branch) }}
     - name: Upload Artifact (ARM)
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ format('PhantomBot-{0}-arm', steps.build_env.outputs.branch) }}
-        path: ${{ format('dist/PhantomBot-{0}-arm', steps.build_env.outputs.branch) }}
+        name: ${{ format('PhantomBotDE-{0}-arm', steps.build_env.outputs.branch) }}
+        path: ${{ format('dist/PhantomBotDE-{0}-arm', steps.build_env.outputs.branch) }}
