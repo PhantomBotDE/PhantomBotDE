@@ -100,6 +100,7 @@ jobs:
         upload_url: ${{ github.event.release.upload_url }}
         asset_path: ${{ format('dist/PhantomBotDE-{0}.zip', steps.build_env.outputs.version) }}
         asset_name: ${{ format('PhantomBotDE-{0}.zip', steps.build_env.outputs.version) }}
+
         asset_content_type: application/zip
     - name: Upload Asset (Linux)
       uses: actions/upload-release-asset@v1
