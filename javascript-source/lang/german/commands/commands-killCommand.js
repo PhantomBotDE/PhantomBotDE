@@ -38,7 +38,7 @@
 $.lang.register('killcommand.other.19', '$2 liegt nach einem tragischen Unfall, in den $1 und einige Göffel involviert waren, zerstückelt in der Gegend rum.');
 $.lang.register('killcommand.self.19', '$1 fiel über sich selbst.');
 $.lang.register('killcommand.self.18', '$1 fiel von einem Baum.');
-$.lang.register('killcommand.self.15', '$1 hat herausgefunden, sich mit 0 zu teilen!');
+$.lang.register('killcommand.self.15', '$1 hat es geschafft, sich mit 0 zu teilen!');
 $.lang.register('killcommand.self.14', '$1 machte BOOOOM!');
 $.lang.register('killcommand.self.17', '$1 fiel von einer Leiter.');
 $.lang.register('killcommand.self.16', '$1 machte einen langen Spaziergang auf einem kurzen Anleger.');
@@ -116,4 +116,4 @@
 $.lang.register('killcommand.self.35', '$1 wurde von einer Landmine in Luft gesprengt!');
 $.lang.register('killcommand.self.34', '$1 hat sich selbst getötet!');
 $.lang.register('killcommand.jail.timeout.set', 'Gefängnisstrafe wurde auf $1 Sekunden festgelegt.');
-
+

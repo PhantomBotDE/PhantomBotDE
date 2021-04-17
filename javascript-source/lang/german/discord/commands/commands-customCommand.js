@@ -18,7 +18,7 @@
 $.lang.register('discord.customcommands.customapijson.err', '!$1: Bei der Verarbeitung der API ist ein Fehler aufgetreten.');
 $.lang.register('discord.customcommands.addcom.err', 'Der Befehl existiert bereits.');
 $.lang.register('discord.customcommands.editcom.404', 'Dieser Befehl existiert nicht.');
-$.lang.register('discord.customcommands.aliascom.success', 'Befehl !$2 ragiert nun auf den Alias !$1');
+$.lang.register('discord.customcommands.aliascom.success', 'Befehl !$2 reagiert nun auf den Alias !$1');
 $.lang.register('discord.customcommands.editcom.usage', 'Verwendung:! editcom [Befehl] [Antwort]');
 $.lang.register('discord.customcommands.permcom.404', 'Dieser Befehl existiert nicht.');
 $.lang.register('discord.customcommands.delcom.usage', 'Verwendung: !delcom [Befehl] [Antwort]');
@@ -48,4 +48,4 @@
 $.lang.register('discord.customcommands.delcom.success', 'Befehl !$1 wurde gelöscht!');
 $.lang.register('discord.customcommands.coolcom.success', 'Cooldown für Befehl !$1 geändert zu $2 Sekunden.');
 $.lang.register('discord.customcommands.editcom.success', 'Befehl !$1 wurde bearbeitet!');
-
+

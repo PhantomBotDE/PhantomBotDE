@@ -16,11 +16,11 @@
  */
 
 $.lang.register('streamcommand.playtime.online', '$1 Spielt $2 schon seit $3');
-$.lang.register('streamcommand.vod.online', 'Der Stream Live seit: $1 [$2]');
+$.lang.register('streamcommand.vod.online', 'Der Stream ist Live seit: $1 [$2]');
 $.lang.register('streamcommand.title.online', 'Aktueller Status: $1. Zeit: $2');
 $.lang.register('streamcommand.online.online', 'Stream ist online.');
 $.lang.register('streamcommand.vod.404', 'Keine Videos vorhanden.');
-$.lang.register('streamcommand.vod.offline', 'Stream ist offline. Letztes video erstellt: [$1] [Length: $2]');
+$.lang.register('streamcommand.vod.offline', 'Der Stream ist offline. Letztes video erstellt: [$1] [Length: $2]');
 $.lang.register('streamcommand.viewers', 'es schauen gerade $1 Personen zu.');
 $.lang.register('streamcommand.game.offline', 'Aktuelles Spiel: $1');
 $.lang.register('streamcommand.game.online', 'Aktuelles Spiel: $1. Spielzeit: $2');
@@ -34,5 +34,4 @@
 $.lang.register('streamcommand.createdat.404', 'Bitte füge einen Channel hinzu');
 $.lang.register('streamcommand.communities.set.usage', 'Verwendung: !setcommunities [communities]. Aktuell: $1');
 $.lang.register('streamcommand.createdat', 'Channel: $1 | Erstellt am: $2');
-$.lang.register('streamcommand.createdat.error', 'Entweder der Channel existiert nicht oder die Twitch AIP hat mal wieder versagt... Probier es am besten nochmal.');
-
+$.lang.register('streamcommand.createdat.error', 'Entweder der Channel existiert nicht oder die Twitch API hat mal wieder versagt... Probier es am besten nochmal.');

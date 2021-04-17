@@ -16,7 +16,7 @@
  */
 
 $.lang.register('followhandler.follow.age.datefmt.404', 'Folgt nicht');
-$.lang.register('followhandler.shoutout.online', 'Hey! Gib $1 einen Follow auf $2 - er spielt gerade $3!');
+$.lang.register('followhandler.shoutout.online', 'Hey! Lass $1 doch einen Follow auf $2 da - er streamt gerade $3!');
 $.lang.register('followhandler.set.followdelay.success', 'Follow-Verzögerung auf $1 Sekunden gesetzt.');
 $.lang.register('followhandler.followtraintoggle.off', 'Follow Zug Benachrichtigungen sind deaktiviert.');
 $.lang.register('followhandler.follow.age.err.404', '$1 $2 folgt dem Kanal $3 nicht.');
@@ -26,7 +26,7 @@
 $.lang.register('followhandler.follow.age.time.days', '$1 $2 folgt dem Kanal $3 seit $4. ($5 Tage/n)');
 $.lang.register('followhandler.set.followreward.success', 'Follow Belohnung geändert auf $1.');
 $.lang.register('followhandler.follow.age.datefmt', 'MM-dd-yyyy');
-$.lang.register('followhandler.shoutout.no.game', 'Hey! Gib $1 einen Follow auf $2');
+$.lang.register('followhandler.shoutout.no.game', 'Hey! Lass $1 doch einen Follow auf $2 da');
 $.lang.register('followhandler.check.usage', 'Verwendung: !follows [Benutzername]');
 $.lang.register('followhandler.fixfollow.error.404', '$1 folgt deinem Kanal nicht.');
 $.lang.register('followhandler.followtrain.penta', 'Penta Follow!!');
@@ -44,9 +44,9 @@
 $.lang.register('followhandler.fixfollow.error', '$1 ist bereits in der Followerliste.');
 $.lang.register('followhandler.check.follows', '$1 folgt dem Kanal.');
 $.lang.register('followhandler.follow.age.time', '$1 $2 folgt dem Kanal $3 seit $4.');
-$.lang.register('followhandler.shoutout.offline', 'Hey! Gib $1 einen Follow auf $2 - er spielte das letzte Mal $3!');
+$.lang.register('followhandler.shoutout.offline', 'Hey! Lass $1 doch einen Follow auf $2 da - er streamte das letzte Mal $3!');
 $.lang.register('followhandler.set.followmessage.usage', 'Verwendung: !followmessage [Nachricht] - Tags: (reward) (name)');
 $.lang.register('followhandler.shoutout.usage', 'Verwendung: !$1 (streamer)');
 $.lang.register('followhandler.followtrain.mega', 'Mega Follow Zug!! ($1)');
 $.lang.register('followhandler.followtrain.quad', 'Quadra Follow!!');
-
+

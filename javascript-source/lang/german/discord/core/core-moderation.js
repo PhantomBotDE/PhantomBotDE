@@ -19,10 +19,10 @@
 $.lang.register('moderation.caps.limit.usage', 'Verwendung: !moderation caps limitpercent [Prozent]');
 $.lang.register('moderation.whitelist.remove.usage', 'Verwendung: !moderation whitelist remove [Wort/satz oder Name#Zahl]');
 $.lang.register('moderation.whitelist.add.success', 'Wort/satz/Benutzername zur Whitelist hinzugefügt!');
-$.lang.register('moderation.cleanup.failed', 'Kann befehl nicht ausführen: bin schon dabei.');
+$.lang.register('moderation.cleanup.failed', 'Kann Befehl nicht ausführen: bin schon dabei.');
 $.lang.register('moderation.spam.usage', 'Verwendung: !moderation spam [toggle / limit]');
 $.lang.register('moderation.blacklist.remove.usage', 'Verwendung: !moderation blacklist remove [wort/satz]');
-$.lang.register('moderation.logs.toggle.usage', 'Verwendung: !moderation logs [toggle / channel] - Will toggle Twitch moderation logs being posted in Discord.');
+$.lang.register('moderation.logs.toggle.usage', 'Verwendung: !moderation logs [toggle / channel] - Schaltet Twitch-Moderationsprotokolle um, die in Discord veröffentlicht werden.');
 $.lang.register('moderation.cleanup.usage', 'Verwendung: !moderation cleanup [channel] [amount]');
 $.lang.register('moderation.blacklist.remove.404', 'Dieser/s Satz/wort steht nicht auf der blacklist.');
 $.lang.register('moderation.usage', 'Verwendung: !moderation [links / caps / spam / blacklist / whitelist / cleanup / logs]');
@@ -60,4 +60,4 @@
 $.lang.register('moderation.blacklist.remove.success', 'erfolgreich von der blacklist entfernt!');
 $.lang.register('moderation.blacklist.list.404', 'Die Blacklist ist leer.');
 $.lang.register('moderation.logs.toggle', 'Twitch moderations Logs $1. **[Bitte Bot neu Starten]**');
-
+
